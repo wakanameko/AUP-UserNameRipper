@@ -137,7 +137,7 @@ def RunningExtract():
 
     # get user name from .aup file path
     startI = "Users\\\\"
-    endI = "\\\\"
+    endI = ".aup"
     sOpenedAUPData = str(ReadOpenedCopiedAUP)
     # ExtractedName = sOpenedAUPData[sOpenedAUPData.find(startI)+len(startI):sOpenedAUPData.rfind(endI)]
     print(sOpenedAUPData[sOpenedAUPData.find(startI)+len(startI)])
